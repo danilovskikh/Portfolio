@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Нормализуем стили-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!--Подключаем стили-->
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Контакты</title>
+</head>
+<body>
+    <!-- *******Navbar******* -->
+    <nav class="navbar">
+        <ul class="link-group">
+        <li class="link"><a href="./index.html">Главная</a></li>
+        <li class="link"><a href="./projects.html">Проекты</a></li>
+        <li class="link"><a href="./aboutMe.html">Обо мне</a></li>
+        <li class="link"><a href="./gallery.html">Галерея</a></li>
+        <li class="link active"><a href="./contact.html">Контакты</a></li>
+    </ul>
+    </nav>
+
+
+    <h1>Для связи</h1>
+    <p>Вы можете связаться со мной</p>
+    <ul class="ul">
+        <li>По номеру:
+            <a href="tel:89320117368" class="tel">8-932-011-73-68</a>
+        </li>
+        <li>По почте:
+            <a href="mailto:nastasya.smolina.95@mail.ru" class="mail">nastasya.smolina.95@mail.ru</a>
+        </li>
+    </ul>
+    <p>Также вы можете написать мне, заполнив форму ниже, и я сама с вами свяжусь:</p>
+    <!-- contact section -->
+<section class="contact-section">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="Имя">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="Email">
+        <textarea name="msg" id="msg" placeholder="Сообщение" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">Связаться</button>
+    </form>
+    <!-- map -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291813.09612990415!2d61.07893703298984!3d55.15195674910047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c592cb104a3a8d%3A0xef224a2a6d1711bf!2z0KfQtdC70Y_QsdC40L3RgdC6LCDQp9C10LvRj9Cx0LjQvdGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1693852693277!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+</section>
+</body>
+</html>

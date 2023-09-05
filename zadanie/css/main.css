@@ -1,0 +1,239 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body{
+    margin: 0;
+}
+.container{
+    margin: 0 25px;
+    
+}
+
+.header {
+    background-image: url(../img/bg/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    color: #FFFAEF;
+} 
+.top{ 
+    padding-top: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+} 
+.h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: /*44px;*/ 122.222%;
+    letter-spacing: 0.4px;
+    
+  
+}
+.button {
+    text-decoration: none;
+    background-color: #E1FF32;
+    color: #000;
+    padding: 20px 53px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px;  
+    margin-right: -150px;
+}   
+
+a {
+    text-decoration:none;
+    color: #000;
+}
+
+.line hr {
+    
+    width: 1300px;
+    margin-left: 100px;
+    
+}
+
+.txt {
+    color: #006450;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: /*44px;*/  122.222%; 
+    letter-spacing: 0.4px;
+    
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.desk {
+    
+    display: inline-block;
+}
+.desk p {
+    color: #006450;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px; /* 110.714% */
+    letter-spacing: 0.4px;
+    margin: -320px 0 0 680px ;
+
+}
+.desk img {
+    margin: -135px 0 0 80px;
+}
+.top_1 { 
+    align-items: center;
+    justify-content: space-around;
+}
+.line_1 {
+    padding-top: 160px;
+    margin-left: 100px;
+   
+}
+.down {
+    background-image: url(/img/pic/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    margin-top: 33px;
+}
+.top_1{ 
+    padding-top: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+} 
+.top_1 h1 {
+    color: #006450;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0.4px;
+}
+.top_1 {
+    color: #006450;
+    font-weight: 400;
+    
+}
+
+.button_2 {
+    text-decoration: none;
+    border: solid #006450;
+    color: #006450;
+    padding: 20px 53px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px; 
+    margin-top: 45px;  
+}   
+.button_2 a {
+    color: #006450;
+}
+.top_2{ 
+    padding-top: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+} 
+.desk_2 {
+    display: inline-block;
+}
+.desk_2 p {
+    color: #006450;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: /*44px;*/  122.222%; 
+    letter-spacing: 0.4px;
+
+    margin: -150px 0 0 120px;
+    
+}
+.desk_2 img {
+    margin: -180px 0 0 650px;
+    padding-left: 200px;
+}
+.top_2 { 
+    align-items: center;
+    justify-content: space-around;
+}
+.line_2 {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.desk_3 {
+    display: inline-block;
+}
+.desk_3 p {
+    color: #006450;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: /*44px;*/  122.222%;
+    letter-spacing: 0.4px;
+    margin: -637px 0 0 820px ;
+}
+
+.desk_3 img {
+    margin: 30px 0 130px 100px;
+}
+.top_4 {
+    color: #006450;
+    font-weight: 400;
+    margin-top: 35px;
+    
+}
+.top_4{ 
+    padding-top: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+} 
+.top_4 h1 {
+    color: #006450;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0.4px;
+}
+.line_3 {
+    margin-top: 360px;
+    margin-left: 100px;
+}
+.txt_2 {
+    color: #006450;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: /*89px;*/  123.611%;
+    letter-spacing: 0.4px;
+    
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+.top_4 {
+    text-align: center;
+}
+.container-fluid {
+    background-color: #fff;
+    
+}
